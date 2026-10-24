@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Manoj Kumar K — Data Analyst | SQL Specialist | Power BI Developer. Open to full-time roles in Chennai or Remote." />
-  <title>Manoj Kumar K | Data Analyst</title>
+  <meta name="description" content="Manoj Kumar K — Data Analyst | Python Developer | Backend Developer | SQL Specialist | Power BI. Open to full-time roles in Chennai or Remote." />
+  <title>Manoj Kumar K | Data Analyst & Python Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
 /* ============================================
    Manoj Kumar K — Premium Data Analyst Portfolio
-   Single-file · Dark theme · Indigo accent
+   Single-file · Dark theme · Teal accent
    ============================================ */
 :root {
-  --bg: #0a0a0f;
-  --bg-elevated: #12121a;
-  --bg-card: #16161f;
-  --border: rgba(255, 255, 255, 0.06);
-  --border-hover: rgba(129, 140, 248, 0.35);
-  --text: #e8e8ed;
-  --text-muted: #9494a8;
-  --text-dim: #6b6b80;
-  --accent: #818cf8;
-  --accent-soft: rgba(129, 140, 248, 0.12);
-  --accent-glow: rgba(129, 140, 248, 0.25);
+  --bg: #070b14;
+  --bg-elevated: #0c1322;
+  --bg-card: #0f1829;
+  --border: rgba(148, 163, 184, 0.12);
+  --border-hover: rgba(45, 212, 191, 0.35);
+  --text: #e6edf7;
+  --text-muted: #8fa0ba;
+  --text-dim: #5f6f8a;
+  --accent: #2dd4bf;
+  --accent-soft: rgba(45, 212, 191, 0.12);
+  --accent-glow: rgba(45, 212, 191, 0.25);
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
   --radius: 12px;
@@ -56,7 +56,7 @@ ul { list-style: none; }
 .cursor { width: 8px; height: 8px; background: var(--accent); mix-blend-mode: difference; }
 .cursor-follower {
   width: 36px; height: 36px;
-  border: 1.5px solid rgba(129, 140, 248, 0.5);
+  border: 1.5px solid rgba(45, 212, 191, 0.5);
   transition: width 0.2s, height 0.2s, background 0.2s;
 }
 .cursor-follower.hover {
@@ -73,13 +73,13 @@ ul { list-style: none; }
   position: fixed; top: 0; left: 0; right: 0; height: var(--nav-height);
   display: flex; align-items: center; justify-content: space-between;
   padding: 0 5%; z-index: 1000;
-  background: rgba(10, 10, 15, 0.75); backdrop-filter: blur(16px);
+  background: rgba(7, 11, 20, 0.75); backdrop-filter: blur(16px);
   border-bottom: 1px solid transparent;
   transition: border-color var(--transition), background var(--transition);
 }
 .navbar.scrolled {
   border-bottom-color: var(--border);
-  background: rgba(10, 10, 15, 0.92);
+  background: rgba(7, 11, 20, 0.92);
 }
 .logo { font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; letter-spacing: -0.02em; }
 .logo span { color: var(--accent); }
@@ -96,9 +96,9 @@ ul { list-style: none; }
 .nav-cta {
   padding: 0.45rem 1.1rem !important;
   background: var(--accent-soft); color: var(--accent) !important;
-  border-radius: 999px; border: 1px solid rgba(129, 140, 248, 0.25);
+  border-radius: 999px; border: 1px solid rgba(45, 212, 191, 0.25);
 }
-.nav-cta:hover { background: rgba(129, 140, 248, 0.2); }
+.nav-cta:hover { background: rgba(45, 212, 191, 0.2); }
 .nav-social { display: flex; gap: 1rem; align-items: center; }
 .nav-social a { color: var(--text-muted); display: flex; }
 .nav-social a:hover { color: var(--accent); }
@@ -136,9 +136,9 @@ ul { list-style: none; }
   font-weight: 550; border-radius: 999px; border: none; cursor: pointer;
   transition: all var(--transition);
 }
-.btn-primary { background: var(--accent); color: #0a0a0f; }
+.btn-primary { background: var(--accent); color: #070b14; }
 .btn-primary:hover {
-  background: #a5b4fc; box-shadow: 0 0 24px var(--accent-glow); transform: translateY(-1px);
+  background: #5eead4; box-shadow: 0 0 24px var(--accent-glow); transform: translateY(-1px);
 }
 .btn-outline {
   background: transparent; color: var(--text); border: 1px solid var(--border);
@@ -176,7 +176,7 @@ ul { list-style: none; }
 .role-static { font-size: 1.25rem; color: var(--text-muted); }
 .role-rotator {
   font-family: var(--font-display); font-size: 1.35rem; font-weight: 600;
-  color: var(--accent); display: inline-block; min-width: 12ch;
+  color: var(--accent); display: inline-block; min-width: 14ch;
 }
 .hero-summary {
   font-size: 1.05rem; color: var(--text-muted); max-width: 560px;
@@ -204,8 +204,8 @@ ul { list-style: none; }
 .hero-grid {
   position: absolute; inset: 0;
   background-image:
-    linear-gradient(rgba(129, 140, 248, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(129, 140, 248, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(45, 212, 191, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(45, 212, 191, 0.06) 1px, transparent 1px);
   background-size: 40px 40px;
   mask-image: radial-gradient(circle at center, black 20%, transparent 70%);
   -webkit-mask-image: radial-gradient(circle at center, black 20%, transparent 70%);
@@ -372,7 +372,7 @@ ul { list-style: none; }
   font-size: 0.9rem; font-weight: 550; color: var(--accent);
   display: inline-flex; align-items: center; gap: 0.3rem;
 }
-.project-link:hover { color: #a5b4fc; }
+.project-link:hover { color: #5eead4; }
 
 /* Skills */
 .skills-section { padding-bottom: 6rem; }
@@ -569,9 +569,9 @@ a.contact-item:hover { border-color: var(--border-hover); }
           <span class="role-rotator" id="roleRotator">Data Analyst</span>
         </div>
         <p class="hero-summary reveal">
-          B.Tech Information Technology graduate with hands-on experience in end-to-end analytics,
-          advanced SQL, Power BI dashboards, and foundational Generative AI.
-          Based in Chennai — open to full-time Data Analyst & Business Intelligence roles.
+          B.Tech Information Technology graduate skilled in Data Analytics, Python Backend Development, 
+          advanced SQL, Power BI, Flask, and foundational Generative AI. 
+          Based in Chennai — open to full-time Data Analyst, BI, Python Developer & Backend roles.
         </p>
         <div class="hero-cta reveal">
           <a href="#" class="btn btn-primary" data-page="projects">View Projects</a>
@@ -592,8 +592,8 @@ a.contact-item:hover { border-color: var(--border-hover); }
     <section class="quick-highlights">
       <div class="container">
         <div class="highlights-grid">
-          <div class="highlight-card reveal"><span class="highlight-num">05+</span><span class="highlight-label">Featured Projects</span></div>
-          <div class="highlight-card reveal"><span class="highlight-num">02</span><span class="highlight-label">Internships</span></div>
+          <div class="highlight-card reveal"><span class="highlight-num">06+</span><span class="highlight-label">Featured Projects</span></div>
+          <div class="highlight-card reveal"><span class="highlight-num">03</span><span class="highlight-label">Internships</span></div>
           <div class="highlight-card reveal"><span class="highlight-num">08+</span><span class="highlight-label">Certifications</span></div>
           <div class="highlight-card reveal"><span class="highlight-num">2025</span><span class="highlight-label">Graduate</span></div>
         </div>
@@ -605,9 +605,17 @@ a.contact-item:hover { border-color: var(--border-hover); }
         <div class="section-header reveal">
           <span class="section-tag">Featured Work</span>
           <h2>Selected Projects</h2>
-          <p>End-to-end analytics & full-stack systems that turn data into decisions.</p>
+          <p>End-to-end analytics, full-stack systems, and backend applications.</p>
         </div>
         <div class="preview-grid">
+          <a href="#" class="preview-card reveal" data-page="projects">
+            <div class="preview-meta">
+              <span class="tag">Python · Flask · REST API</span>
+              <h3>Weather App Pro</h3>
+              <p>Full-stack Flask weather app with secure API key handling, JSON REST endpoints & forecasts</p>
+            </div>
+            <span class="preview-arrow">→</span>
+          </a>
           <a href="#" class="preview-card reveal" data-page="projects">
             <div class="preview-meta">
               <span class="tag">Python · Scikit-learn</span>
@@ -621,14 +629,6 @@ a.contact-item:hover { border-color: var(--border-hover); }
               <span class="tag">MySQL · Power BI</span>
               <h3>PrimeViz — E-Commerce Sales</h3>
               <p>250 orders · $243K revenue · Advanced SQL + 4-page interactive dashboard</p>
-            </div>
-            <span class="preview-arrow">→</span>
-          </a>
-          <a href="#" class="preview-card reveal" data-page="projects">
-            <div class="preview-meta">
-              <span class="tag">MySQL · Window Functions</span>
-              <h3>Amazon Shopverse Records</h3>
-              <p>Revenue intelligence · Customer retention · 20+ business questions answered</p>
             </div>
             <span class="preview-arrow">→</span>
           </a>
@@ -657,26 +657,24 @@ a.contact-item:hover { border-color: var(--border-hover); }
               Sathyabama Institute of Science and Technology (May 2025), based in Chennai, India.
             </p>
             <p>
-              I specialize in transforming raw data into actionable business insights. My toolkit
-              centers on <strong>SQL</strong>, <strong>Python</strong>, <strong>Excel</strong>, and
-              <strong>Power BI</strong>, with hands-on experience building end-to-end analytics
-              pipelines — from data cleaning and exploratory analysis to clustering, regression,
-              and interactive dashboards.
+              I specialize in transforming raw data into actionable business insights and building 
+              reliable backend systems. My toolkit centers on <strong>SQL</strong>, <strong>Python</strong>, 
+              <strong>Excel</strong>, <strong>Power BI</strong>, and <strong>Flask</strong>, with hands-on 
+              experience in end-to-end analytics pipelines, REST APIs, and full-stack applications.
             </p>
             <p>
-              Beyond core analytics, I have foundational knowledge in <strong>Generative AI</strong>,
-              Large Language Models, Retrieval-Augmented Generation (RAG), and LangChain. I enjoy
-              exploring how modern AI can augment traditional analytical workflows.
+              Beyond core analytics, I have foundational knowledge in <strong>Generative AI</strong>
+              (LLMs, RAG, LangChain), AWS fundamentals (S3, EC2, VPC, IAM), and Linux.
             </p>
             <p>
               During my internships I developed cross-platform Flutter applications,
               built PHP-MySQL transactional systems, optimized database design and query
-              performance, and delivered reliable, user-focused solutions. I bring the
-              same rigor and product mindset to every analytics project.
+              performance, and delivered reliable, user-focused solutions.
             </p>
             <p>
-              I'm currently seeking full-time opportunities as a <strong>Data Analyst</strong> or
-              <strong>Business Intelligence</strong> professional — open to roles in Chennai or remote.
+              I'm currently seeking full-time opportunities as a <strong>Data Analyst</strong>, 
+              <strong>Business Intelligence</strong>, <strong>Python Developer</strong>, or 
+              <strong>Backend Developer</strong> — open to roles in Chennai or remote.
             </p>
           </div>
           <div class="about-side reveal">
@@ -685,7 +683,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
               <ul class="info-list">
                 <li><span>Location</span><strong>Chennai, India</strong></li>
                 <li><span>Education</span><strong>B.Tech IT · 2025</strong></li>
-                <li><span>Focus</span><strong>Data Analytics & BI & Data Science</strong></li>
+                <li><span>Focus</span><strong>Data Analytics · Backend · AI</strong></li>
                 <li><span>Status</span><strong>Open to full-time roles</strong></li>
               </ul>
             </div>
@@ -694,8 +692,8 @@ a.contact-item:hover { border-color: var(--border-hover); }
               <ul class="bullet-list">
                 <li>Clean, well-documented analysis</li>
                 <li>Business-first storytelling with data</li>
-                <li>Scalable SQL & dashboard design</li>
-                <li>Continuous learning in AI/ML</li>
+                <li>Scalable SQL, APIs & dashboard design</li>
+                <li>Continuous learning in AI/ML & Backend</li>
               </ul>
             </div>
           </div>
@@ -716,6 +714,28 @@ a.contact-item:hover { border-color: var(--border-hover); }
     <section class="experience-section">
       <div class="container">
         <div class="timeline">
+
+          <!-- OIBSIP -->
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="exp-header">
+                <div>
+                  <h2>Python Programming Intern</h2>
+                  <p class="company">Oasis Infobyte (OIBSIP) · Remote</p>
+                </div>
+                <span class="exp-date">Sep 2026 – Oct 2026</span>
+              </div>
+              <ul class="exp-points">
+                <li>Completed a 1-month AICTE-certified Python Programming Internship with excellent performance</li>
+                <li>Designed and developed four practical applications covering core Python, API integration, and speech processing</li>
+                <li>Built a Voice Assistant with speech recognition & text-to-speech, a Weather App using OpenWeatherMap API, a secure Password Generator, and a BMI Calculator</li>
+                <li>Applied clean code principles including modular design, input validation and exception handling</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Hackwit -->
           <article class="timeline-item reveal">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -728,12 +748,14 @@ a.contact-item:hover { border-color: var(--border-hover); }
               </div>
               <ul class="exp-points">
                 <li>Built a cross-platform productivity application using <strong>Flutter</strong> and <strong>Dart</strong> for Android and iOS.</li>
-<li>Developed core task management features including task creation, editing, deletion, and organization.</li>
-<li>Implemented local data persistence using <strong>SharedPreferences</strong> for seamless offline task management.</li>
-<li>Enhanced UI responsiveness and application performance to deliver a smooth and reliable user experience.</li>
+                <li>Developed core task management features including task creation, editing, deletion, and organization.</li>
+                <li>Implemented local data persistence using <strong>SharedPreferences</strong> for seamless offline task management.</li>
+                <li>Enhanced UI responsiveness and application performance to deliver a smooth and reliable user experience.</li>
               </ul>
             </div>
           </article>
+
+          <!-- HCL -->
           <article class="timeline-item reveal">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
@@ -752,6 +774,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
               </ul>
             </div>
           </article>
+
         </div>
       </div>
     </section>
@@ -763,7 +786,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
       <div class="container">
         <span class="section-tag reveal">Projects</span>
         <h1 class="reveal">Selected Work</h1>
-        <p class="page-subtitle reveal">End-to-end analytics, advanced SQL, and systems that demonstrate how I think with data.</p>
+        <p class="page-subtitle reveal">End-to-end analytics, advanced SQL, backend APIs, and systems that demonstrate how I think with data and code.</p>
       </div>
     </section>
     <section class="projects-section">
@@ -772,6 +795,15 @@ a.contact-item:hover { border-color: var(--border-hover); }
           <article class="project-card reveal">
             <div class="project-num">01</div>
             <div class="project-body">
+              <div class="project-tags"><span>Python</span><span>Flask</span><span>REST API</span><span>JavaScript</span></div>
+              <h2>Weather App Pro</h2>
+              <p>Full-stack weather application with Flask backend and responsive frontend. Features current conditions, 8-hour & 5-day forecasts, °C/°F switching. Designed secure JSON REST endpoints integrating OpenWeatherMap APIs with timeouts, input validation, and HTTP error handling. API key secured server-side using environment variables.</p>
+              <a href="https://github.com/K-Manojkumar-4/Weather-App-Pro" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-num">02</div>
+            <div class="project-body">
               <div class="project-tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Jupyter</span></div>
               <h2>Swiggy Data Science Case Study</h2>
               <p>End-to-end analysis of ~197K food delivery records across 28 Indian cities. Covered data preprocessing, exploratory data analysis, statistical testing, feature engineering, K-Means clustering, Linear Regression, model evaluation, and clear business recommendations.</p>
@@ -779,7 +811,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
             </div>
           </article>
           <article class="project-card reveal">
-            <div class="project-num">02</div>
+            <div class="project-num">03</div>
             <div class="project-body">
               <div class="project-tags"><span>MySQL</span><span>Advanced SQL</span><span>Power BI</span></div>
               <h2>PrimeViz — E-Commerce Sales Analysis</h2>
@@ -788,7 +820,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
             </div>
           </article>
           <article class="project-card reveal">
-            <div class="project-num">03</div>
+            <div class="project-num">04</div>
             <div class="project-body">
               <div class="project-tags"><span>MySQL</span><span>Window Functions</span><span>CTEs</span></div>
               <h2>Amazon Shopverse Records</h2>
@@ -797,7 +829,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
             </div>
           </article>
           <article class="project-card reveal">
-            <div class="project-num">04</div>
+            <div class="project-num">05</div>
             <div class="project-body">
               <div class="project-tags"><span>PHP</span><span>MySQL</span><span>Role-based Access</span></div>
               <h2>Hospital Management System</h2>
@@ -806,7 +838,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
             </div>
           </article>
           <article class="project-card reveal">
-            <div class="project-num">05</div>
+            <div class="project-num">06</div>
             <div class="project-body">
               <div class="project-tags"><span>PHP</span><span>MySQL</span><span>Database Design</span></div>
               <h2>Train Ticket Reservation System</h2>
@@ -825,7 +857,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
       <div class="container">
         <span class="section-tag reveal">Skills</span>
         <h1 class="reveal">Tech Stack</h1>
-        <p class="page-subtitle reveal">Tools and techniques I use to analyze data, build dashboards, and deliver insights.</p>
+        <p class="page-subtitle reveal">Tools and techniques I use to analyze data, build dashboards, APIs, and deliver insights.</p>
       </div>
     </section>
     <section class="skills-section">
@@ -836,28 +868,41 @@ a.contact-item:hover { border-color: var(--border-hover); }
             <div class="skill-tags">
               <span>MySQL</span><span>Advanced SQL</span><span>CTEs</span><span>Window Functions</span>
               <span>Aggregations</span><span>Power BI</span><span>Excel</span><span>Exploratory Data Analysis</span>
-              <span>Business Insights</span><span>Dashboard Design</span><span>ETL</span><span>KPIs</span>
+              <span>Business Insights</span><span>Dashboard Design</span><span>KPIs</span>
             </div>
           </div>
           <div class="skill-category reveal">
             <h2>Data Science & ML</h2>
             <div class="skill-tags">
               <span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
-              <span>statistical analysis</span><span>Jupyter</span><span>K-Means</span>
+              <span>Statistical Analysis</span><span>Jupyter</span><span>K-Means</span>
               <span>Linear Regression</span><span>Feature Engineering</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h2>Backend & APIs</h2>
+            <div class="skill-tags">
+              <span>Flask</span><span>RESTful APIs</span><span>JSON</span><span>API Key Management</span>
+              <span>CRUD Operations</span><span>Error Handling</span><span>Third-Party APIs</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h2>Full-Stack Development</h2>
+            <div class="skill-tags">
+              <span>PHP</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              <span>Bootstrap</span><span>Role-based Access</span><span>Authentication</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h2>Cloud & Infrastructure</h2>
+            <div class="skill-tags">
+              <span>AWS (S3, EC2, VPC, IAM)</span><span>Linux</span><span>Bash Scripting</span>
             </div>
           </div>
           <div class="skill-category reveal">
             <h2>Generative AI</h2>
             <div class="skill-tags">
               <span>LLMs</span><span>RAG</span><span>LangChain</span><span>Prompt Engineering</span>
-            </div>
-          </div>
-          <div class="skill-category reveal">
-            <h2>Tools & Development</h2>
-            <div class="skill-tags">
-              <span>Git</span><span>GitHub</span><span>VS Code</span><span>PHP</span>
-              <span>HTML/CSS</span><span>JavaScript</span><span>XAMPP</span>
             </div>
           </div>
         </div>
@@ -871,7 +916,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
       <div class="container">
         <span class="section-tag reveal">Education</span>
         <h1 class="reveal">Learning Path</h1>
-        <p class="page-subtitle reveal">Formal education and professional certifications that shape my analytical foundation.</p>
+        <p class="page-subtitle reveal">Formal education and professional certifications that shape my analytical and development foundation.</p>
       </div>
     </section>
     <section class="education-section">
@@ -884,7 +929,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
                 <h3>B.Tech Information Technology</h3>
                 <p class="edu-school">Sathyabama Institute of Science and Technology</p>
               </div>
-              <span class="edu-date">Aug 2021 – May 2025</span>
+              <span class="edu-date">Sep 2021 – May 2025</span>
             </div>
             <p class="edu-desc">Comprehensive foundation in software engineering, databases, algorithms, and information systems. Coursework completed. Immediately available for full-time roles.</p>
           </div>
@@ -897,7 +942,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
             <div class="cert-card"><span class="cert-org">AWS</span><h3>Data Engineering for Generative AI Applications</h3></div>
             <div class="cert-card"><span class="cert-org">Alison</span><h3>Python for Data Science</h3></div>
             <div class="cert-card"><span class="cert-org">Oracle</span><h3>OCI 2023 AI Certified Foundations Associate</h3></div>
-            <div class="cert-card"><span class="cert-org">NPTEL</span><h3>The Joy of Computing using Python </h3></div>
+            <div class="cert-card"><span class="cert-org">NPTEL</span><h3>The Joy of Computing using Python</h3></div>
             <div class="cert-card"><span class="cert-org">IBM</span><h3>Getting Started with Generative AI</h3></div>
             <div class="cert-card"><span class="cert-org">MathWorks</span><h3>Machine Learning with MATLAB</h3></div>
             <div class="cert-card"><span class="cert-org">Cognitive Class</span><h3>Prompt Engineering for Everyone</h3></div>
@@ -914,7 +959,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
       <div class="container">
         <span class="section-tag reveal">Contact</span>
         <h1 class="reveal">Let's connect</h1>
-        <p class="page-subtitle reveal">Open to full-time Data Analyst & Business Intelligence & Data Science roles in Chennai or remote.</p>
+        <p class="page-subtitle reveal">Open to full-time Data Analyst, BI, Python Developer & Backend Developer roles in Chennai or remote.</p>
       </div>
     </section>
     <section class="contact-section">
@@ -922,7 +967,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
         <div class="contact-grid">
           <div class="contact-info reveal">
             <h2>Get in touch</h2>
-            <p>Whether you have a role that fits, a project idea, or just want to discuss data, analytics, or AI — I'd love to hear from you.</p>
+            <p>Whether you have a role that fits, a project idea, or just want to discuss data, analytics, backend development, or AI — I'd love to hear from you.</p>
             <div class="contact-links">
               <a href="https://www.linkedin.com/in/manoj-kumar-k-/" target="_blank" rel="noopener" class="contact-item">
                 <span class="contact-icon">
@@ -944,7 +989,7 @@ a.contact-item:hover { border-color: var(--border-hover); }
           </div>
           <div class="contact-cta-card reveal">
             <h3>Ready to collaborate?</h3>
-            <p>I'm actively looking for Data Analyst, BI Roles and Data Roles where I can contribute from day one and keep growing in analytics and AI.</p>
+            <p>I'm actively looking for Data Analyst, BI, Python Developer and Backend roles where I can contribute from day one and keep growing.</p>
             <a href="https://www.linkedin.com/in/manoj-kumar-k-/" target="_blank" rel="noopener" class="btn btn-primary">Message on LinkedIn</a>
             <a href="https://github.com/K-Manojkumar-4" target="_blank" rel="noopener" class="btn btn-outline">Explore GitHub</a>
           </div>
@@ -1048,7 +1093,15 @@ a.contact-item:hover { border-color: var(--border-hover); }
   // Role rotator
   const roleRotator = document.getElementById('roleRotator');
   if (roleRotator) {
-    const roles = ['Data Analyst', 'SQL Specialist', 'Power BI Developer', 'Expanding Expertise in ML', 'Problem Solver', 'Ready for Full-time Data Roles'];
+    const roles = [
+      'Data Analyst', 
+      'Python Developer', 
+      'Backend Developer', 
+      'SQL Specialist', 
+      'Power BI Developer', 
+      'Expanding in ML & AI',
+      'Problem Solver'
+    ];
     let index = 0;
     roleRotator.style.transition = 'opacity 0.28s ease, transform 0.28s ease';
     setInterval(() => {
